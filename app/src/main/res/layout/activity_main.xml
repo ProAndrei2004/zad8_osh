@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="232dp"
+        android:layout_height="79dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="472dp"
+        android:text="WorldCinema"
+        android:textColor="@color/red"
+        android:textSize="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/logEnter"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="404dp"
+        android:hint="E-mail"
+        android:shadowColor="@color/red"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:background="@drawable/edittextstyle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+    <EditText
+        android:id="@+id/pasenter"
+        android:layout_width="281dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="340dp"
+        android:background="@drawable/edittextstyle"
+        android:hint="Пароль"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:layout_width="152dp"
+        android:layout_height="128dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="548dp"
+        android:src="@drawable/movie"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/LoginButton"
+        android:layout_width="275dp"
+        android:layout_height="57dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="268dp"
+        android:background="@color/blue"
+        android:onClick="but"
+        android:text="Логин"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+    <Button
+        android:id="@+id/RegButton"
+        android:layout_width="275dp"
+        android:layout_height="57dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="184dp"
+        android:textColor="@color/white"
+        android:background="@drawable/edittextstyle"
+        android:text="Регистрация"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">zad8_osh</string>
+    <string-array name="film_names">
+        <item>фильм1</item>
+        <item>фильм2</item>
+        <item>фильм3</item>
+        <item>фильм4</item>
+    </string-array>
+    <string name="autor">Автор: бла-бла</string>
+    <string name="name">Название: блф-блф</string>
+    <string name="janr">Жанр: беф-беф</string>
+</resources>
